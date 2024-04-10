@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "M PLUS 1 Code", monospace;;
+}
+
+/* Navbar styles */
+header {
+    background-color: #FDFFF9;
+    height: 60px;
+    padding: 20px;
+}
+
+#nav-title {
+    font-family: "Press Start 2P", system-ui;
+}
+
+/* Main content styles */
+main {
+    background-color: white;
+    flex: 1 0 auto;
+}
+
+/* Footer styles */
+footer {
+    background-color: #FDF6DB;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
